@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700;800;900&family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="personal.css" />
+  </head>
+  <body>
+    <div class="first-part">
+      <header>
+        <img src="images/Vector.svg" />
+        <h3>Redberry Knight Cup</h3>
+      </header>
+      <div class="image">
+        <h3>
+          “When you see a good move,<br />
+          look for a better one.”
+        </h3>
+
+        <h2>-Emanuel Lasker</h2>
+      </div>
+    </div>
+
+    <div class="second-part">
+      <h2>Start creating your account</h2>
+      <hr class="line" />
+      <div class="registration">
+        <div class="tasks">
+          <div class="one">
+            <p>1</p>
+          </div>
+
+          <hr />
+          <div class="two">
+            <p>2</p>
+          </div>
+        </div>
+        <div class="text">
+          <h1>Personal information</h1>
+          <h1 class="experience">Chess experience</h1>
+        </div>
+      </div>
+      <div class="article">
+        <h1>Personal information</h1>
+        <p>This is basic informaton fields</p>
+      </div>
+      <form class="register" method="post">
+        <input
+          id="name1"
+          type="text"
+          name="text"
+          placeholder="Name"
+          minlength="2"
+          required
+        />
+        <p class="first">*</p>
+        <img src="images/mwvane.svg" class="mwvane" />
+        <input
+          id="email"
+          type="email"
+          name="email"
+          placeholder="Email address"
+          required
+        />
+        <p class="second">*</p>
+        <img src="images/mwvane.svg" class="mwvane1" />
+        <input
+          type="text"
+          name="number"
+          id="number"
+          placeholder="Phone number"
+          required
+        />
+        <p class="third">*</p>
+        <img src="images/mwvane.svg" class="mwvane2" />
+        <input
+          id="data"
+          type="text"
+          name="date"
+          required
+          placeholder="Date of birth"
+          onfocus="(this.type='date')"
+        />
+        <p class="end">*</p>
+        <img src="images/mwvane.svg" class="mwvane3" />
+      </form>
+      <div class="buttons">
+        <button class="click1"><a href="index.html">Back</a></button>
+        <button class="click">
+          <a class="vector" href="profile.html"
+            >Next<span><img src="images/Vector1.svg" /></span
+          ></a>
+        </button>
+      </div>
+    </div>
+    <script src="personal.js"></script>
+  </body>
+</html>
