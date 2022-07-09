@@ -1,0 +1,272 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 1920px;
+  height: 1080px;
+  display: flex;
+}
+.first-part {
+  width: 923px;
+}
+header {
+  background-color: #7025fb;
+  height: 84px;
+  display: flex;
+
+  align-items: center;
+}
+header img {
+  width: 14.67px;
+  height: 18.33px;
+  margin-left: 60px;
+}
+header h3 {
+  margin-left: 10px;
+  font-family: "Open Sans", sans-serif;
+
+  color: #ffffff;
+}
+.image {
+  height: 996px;
+
+  background-image: url("images/chess.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  padding-top: 250px;
+  padding-left: 132px;
+
+  width: 923px;
+}
+.image h3 {
+  font-family: Nunito;
+  font-size: 26px;
+  font-style: italic;
+  font-weight: 800;
+}
+.image h2 {
+  font-family: Nunito;
+  font-size: 24px;
+  font-style: italic;
+  font-weight: 500;
+  color: #e5e6e8;
+  margin-top: 24px;
+}
+.second-part {
+  width: 100%;
+}
+.second-part h2 {
+  padding-left: 48px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 600;
+
+  color: #212529;
+}
+.second-part .line {
+  width: 100%;
+  border: 1px solid #b9b4c3;
+  border-radius: 30%;
+  background-color: #b9b4c3;
+}
+.registration {
+  padding-left: 48px;
+  padding-top: 60px;
+}
+.tasks {
+  display: flex;
+  align-items: center;
+}
+
+.one {
+  font-family: Open Sans;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 25px;
+  margin-left: 50px;
+  height: 40px;
+  width: 40px;
+  border: 1px solid #e5e6e8;
+  border-radius: 8px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #212529;
+}
+.two {
+  font-family: Open Sans;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 25px;
+  height: 40px;
+  width: 40px;
+  border-radius: 8px;
+  background-color: #e5e6e8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #e5e6e8;
+  color: #95939a;
+}
+.experience {
+  margin-left: 50px;
+}
+.text {
+  display: flex;
+}
+.text h1 {
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  display: block;
+  margin-top: 5px;
+}
+hr {
+  height: 0px;
+  width: 174px;
+  left: 44px;
+  top: 20px;
+  border: 1px solid #b9b4c3;
+  color: #b9b4c3;
+}
+.article {
+  margin-top: 115px;
+  margin-left: 48px;
+}
+.article h1 {
+  font-family: Open Sans;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 48px;
+}
+.article p {
+  color: #95939a;
+  font-family: Open Sans;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 21px;
+  padding-top: 5px;
+}
+form input {
+  position: relative;
+  margin-left: 48px;
+  height: 46px;
+  width: 775px;
+  border-color: white;
+  border-radius: 4px;
+  padding: 8px, 16px, 8px, 16px;
+  margin-top: 30px;
+}
+form .first {
+  position: absolute;
+  margin-left: 90px;
+  margin-top: -30px;
+  color: #dc3545;
+}
+form .second {
+  position: absolute;
+  margin-left: 140px;
+  margin-top: -30px;
+  color: #dc3545;
+}
+
+form .third {
+  position: absolute;
+  margin-left: 143px;
+  margin-top: -30px;
+  color: #dc3545;
+}
+form .end {
+  position: absolute;
+  margin-left: 135px;
+  margin-top: -30px;
+  color: #dc3545;
+}
+.mwvane {
+  position: absolute;
+
+  right: 170px;
+  top: 50%;
+  display: none;
+}
+.mwvane1 {
+  position: absolute;
+  right: 170px;
+  top: 50%;
+  margin-top: 80px;
+  display: none;
+}
+.mwvane2 {
+  position: absolute;
+
+  right: 170px;
+  top: 50%;
+  margin-top: 160px;
+  display: none;
+}
+.mwvane3 {
+  position: absolute;
+
+  right: 170px;
+  top: 50%;
+  margin-top: 220px;
+  display: none;
+}
+.buttons {
+  display: flex;
+  align-items: center;
+
+  margin-top: 100px;
+}
+a {
+  text-decoration: none;
+  color: #212529;
+}
+.vector {
+  color: white;
+}
+.click {
+  height: 53px;
+  width: 128px;
+  font-family: Open Sans;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 27px;
+  border-radius: 8px;
+  padding: 13px, 24px, 13px, 24px;
+  background-color: #212529;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 600px;
+}
+.click1 {
+  font-family: Open Sans;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 27px;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  border-radius: 8px;
+  background-color: #f5f5f5;
+  cursor: pointer;
+  margin-left: 40px;
+}
+
+.click span {
+  margin-left: 12px;
+}
+
+.click:hover {
+  border: 4px solid #c2a5f9cc;
+}
